@@ -1,0 +1,9 @@
+type Mutation {
+    createAccount(
+        spId: String!
+        name: String!
+        email: String!
+        addr: String
+        phone: String
+    ): User!
+}

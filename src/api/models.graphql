@@ -1,0 +1,28 @@
+type SalePerson {
+  id: ID!
+  theId: Int!
+  name: String!
+  email: String
+  phone: String
+  users: [User!]!
+  createdAt: String!
+  updatedAt: String!
+}
+
+type User {
+  id: ID!
+  salePerson: SalePerson!
+  name: String!
+  email: String!
+  addr: String
+  phone: String
+  createdAt: String!
+  updatedAt: String!
+}
+
+type File {
+  id: ID!
+  url: String!
+  createdAt: String!
+  updatedAt: String!
+}

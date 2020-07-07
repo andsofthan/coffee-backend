@@ -1,0 +1,8 @@
+type Mutation{
+    createSPerson(
+        theId: Int!
+        name: String!
+        email: String
+        phone: String
+    ):SalePerson!
+}

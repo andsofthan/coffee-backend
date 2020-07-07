@@ -1,0 +1,28 @@
+type SalePerson {
+  id: ID! @id
+  theId: Int! @unique
+  name: String!
+  email: String
+  phone: String
+  users: [User!]! @relation(link: TABLE)
+  createdAt: DateTime! @createdAt
+  updatedAt: DateTime! @updatedAt
+}
+
+type User {
+  id: ID! @id
+  salePerson: SalePerson!
+  name: String!
+  email: String!
+  addr: String
+  phone: String
+  createdAt: DateTime! @createdAt
+  updatedAt: DateTime! @updatedAt
+}
+
+type File {
+  id: ID! @id
+  url: String!
+  createdAt: DateTime! @createdAt
+  updatedAt: DateTime! @updatedAt
+}
