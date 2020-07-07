@@ -7,6 +7,9 @@
   "author": "hyongwoo kim <andsofthan@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/node": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
     "graphql-yoga": "^1.18.3"
   },
   "devDependencies": {
