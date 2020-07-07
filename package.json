@@ -1,0 +1,12 @@
+{
+  "name": "coffee-backend",
+  "version": "1.0.0",
+  "description": "coffee uncle",
+  "main": "index.js",
+  "repository": "https://github.com/andsofthan/coffee-backend",
+  "author": "hyongwoo kim <andsofthan@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "graphql-yoga": "^1.18.3"
+  }
+}
